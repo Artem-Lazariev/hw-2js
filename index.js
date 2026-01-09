@@ -11,13 +11,13 @@ const floatNumber = 12.78
 let roundedDown = Math.floor(floatNumber)
 const floatString = "45.67"
 const intString = "123"
-console.log(+floatString)
-console.log(+intString)
+console.log(parseFloat(floatString))
+console.log(parseInt(intString))
 let number = 96545658887766767676766678
 const integer = 42
 const stringNumber = "256"
 let convertedInt  = +stringNumber
-let convertedString = toString(integer)
+let convertedString = integer.toString()
 console.log(convertedString)
 console.log(convertedInt)
 
